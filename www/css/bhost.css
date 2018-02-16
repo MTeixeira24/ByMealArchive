@@ -1,0 +1,221 @@
+@font-face{
+    font-family:'Roboto Condensed', "Railway";
+    src: url(Railway.otf);
+
+}
+
+
+#bah-btn{
+    position: absolute;
+    margin-bottom: -50px;
+    top: 0;
+    right:400px;
+    padding-bottom: 1px;
+    background-color: #F05F40;
+    color: white;
+    border-radius: 0;
+    text-align: center;
+    font-size: 14px;
+    display: none;
+    font-family: 'Roboto Condensed', "Railway";
+
+}
+
+#bah-btn:hover{
+    background-color: #f05f40;
+}
+
+
+body{
+    font-family: 'Roboto Condensed', "Railway";
+}
+
+.hiw1{
+    background-image: url(../img/portfolio/fullsize/h-i-w1.png);
+
+}
+
+.hiw2{
+    background-image: url(../img/portfolio/fullsize/h-i-w2.png);
+}
+
+.hiw3{
+    background-color:white;
+}
+
+
+#hiw{
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    background-size: cover;
+}
+
+#hiw .row{
+    position: relative;
+    width: 95vw;
+    left: 2.5vw;
+    right: 2.5vw;
+}
+
+
+
+
+
+
+.hiw1 .btn{
+    position:relative;
+    width:300px;
+    min-height:50px;
+    top:60vh;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    background-color:#F05F40;
+    border-radius: 0px;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', "Railway";
+
+}
+navbar-header{
+    width: 80%;
+}
+
+
+
+.hiw1 .title{
+    position: relative;
+    top: 25vh;
+    width: 95%;
+    height: 10vh;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'Roboto Condensed', "Railway";
+}
+.hiw1 h2{
+    width: 95%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', "Railway";
+
+}
+
+
+
+.hiw2{
+    color: white;
+    font-size: 17px;
+}
+
+.hiw2 .row{
+    top: 10vh;
+    left: 5vw;
+
+}
+
+.hiw2 .col-xs-12{
+        margin-bottom:10vh;
+}
+
+
+.hiw2 .col-xs-8{
+    background-color: rgba(0, 0, 0, 0.60);
+
+}
+
+.hiw2 p{
+    font-style: italic;
+    text-align: right;
+}
+
+.hiw2 .thumbnail, .hiw2 .thumbnail img{
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(0,0,0,0);
+    border-radius: 100%;
+    image-resolution: from-image;
+}
+
+
+#hiw h2{
+    top: 1vh;
+    position: relative;
+    left:2vw;
+    font-family: 'Roboto Condensed', "Railway";
+}
+
+
+
+.hiw3 .row{
+    top: 4vh;
+}
+
+.hiw3 .row p{
+    font-size: 15px;
+    font-family: 'Roboto Condensed', "Railway";
+}
+
+.hiw3 .row h4{
+    font-weight: bold;
+}
+
+.hiw3 .row .col-md-4{
+
+    min-height: 34vh;
+}
+
+.hiw3 .row img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+@media(min-width:992px){
+
+    .hf{
+        position: relative;
+        left: 33%;
+    }
+
+
+}
+
+@media(max-width:1258px){
+    .hiw2 .col-xs-8{
+        left:2.5vw;
+        width: 100%;
+    }
+
+    .hiw2 .thumbnail{
+        display: none;
+    }
+
+}
+
+@media(max-width:991px){
+    .hiw3 .row img{
+        max-height: 50%;
+        max-width: 50%;
+    }
+
+}
+
+@media(max-width:734px){
+    .hiw3 .row img{
+        max-height: 60%;
+        max-width: 60%;
+    }
+}
+
+@media(max-width:600px){
+    .hiw3 .row img{
+        max-height: 90%;
+        max-width: 90%;
+    }
+}
+
+@media(max-width:766px){
+    #bah-btn{
+        right:100px;
+    }
+}

@@ -1,0 +1,57 @@
+.left{
+    margin-left:10px;
+    margin-top:100px;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+
+
+.left .btn-lg{
+    width:19vw;
+    height:15vh;
+    margin-left:45px;
+    border-radius:5px;
+    margin-bottom:50px;
+    background-color: #F05120;
+    color:white;
+    font-weight:bolder;
+    text-align:center;
+    font-family:"Railway";
+}
+
+.right{
+  position:fixed;
+  bottom:96.4vh;
+  right:30px;
+  
+}
+
+.left h3{
+  margin-left:10px;
+}
+
+.left tr{
+  position:relative;
+  padding-top: 12px;
+  width:150px;
+  display: inline-block;
+  height: 200px;
+  z-index:100;
+  margin-left:10px;
+  margin-bottom:10px;
+  background-size:cover;
+}
+
+.left tr .price{
+  background-color:rgb(255,255,255);
+  position:absolute;
+  bottom:-10px;
+  right:10px;
+}
+
+.left tr .author{
+  background-color:rgb(255,255,255);
+  position:absolute;
+  bottom:-10px;
+  left:10px;
+}

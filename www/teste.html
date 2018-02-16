@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!--Google APP Id-->
+  <meta name="google-signin-client_id" content="23095445750-kp39laiq1e5qk7s99hpb664qirif2i1j.apps.googleusercontent.com">
+  <title>ByMeal.com</title>
+  <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <!-- Theme CSS -->
+  <link href="css/creative.css" rel="stylesheet">
+  <!-- Icones Sociais -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Andre -->
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
+  <!-- Bootstrap Date-Picker Plugin -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+  <!--Google Platform Library javascript-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+  <script src="https://apis.google.com/js/api:client.js"></script>
+	
+  <link href="./css/ppolicy.css" rel="stylesheet" type="text/css">
+
+
+
+
+
+</head>
+
+<body id="page-top">
+
+<div class="modal-dialog modal-lg">
+   <div class="modal-content">
+      <div class="modal-body">
+         <h1 class="text-center">Sign-up</h1>
+         <div class="theme-selector"></div>
+
+         <!-- Alreeady have an account button -->
+         <div class="text-center" style="color: #C1C1C1">Already have an account? <a href="#">Login!</a></div>
+
+         <!-- Facebook button -->
+         <div class="row">
+           <div class="col-sm-6 col-sm-offset-3 text-center">
+             <button type="button" class="btn btn-lg btn-block signinsignup" style="font-weight:normal; color: white; margin-bottom: 10px; background-color: rgb(59, 89, 152); text-transform: none;">
+                <span style="display: inline-block; vertical-align: middle; width: 40px; height: 40px; margin-bottom: -15px; margin-top: -15px; background: url(./img/fb-logo.png) 5px 50% no-repeat transparent; background-size: contain"></span>Sign up with facebook
+             </button>
+           </div>
+         </div>
+
+        <!-- Google button -->
+        <div class="row">
+         <div class="col-sm-6 col-sm-offset-3 text-center">
+           <button id="googleSignup" type="button" class="btn btn-lg btn-block" style="font-weight:normal; color:white; background-color: rgb(218, 72, 53);  text-transform: none">
+              <span style="display: inline-block; vertical-align: middle; width: 45px; height: 45px; margin-bottom: -15px; margin-top: -15px; background: url(./img/gplus-logo.png) 5px 50% no-repeat transparent; background-size: contain"></span><!-- react-text: 134 -->Sign up with google<!-- /react-text -->
+           </button>
+           </div>
+         </div>
+
+
+
+
+
+
+         <div id="name"></div>
+         <hr style="max-width: 400px; border-color: #C1C1C1; border-width: 1px">
+<!--          <form>
+            <div class="input-group input-group-lg"><span class="input-group-addon" style="background-color: rgb(238, 75, 40);"><i class="glyphicon glyphicon-envelope" style="color: white;"></i></span><input type="text" id="emailsignup" name="emailsignup" class="form-control" placeholder="Email"></div>
+            <div class="input-group input-group-lg" style="margin-top: 10px;"><span class="input-group-addon" style="color: white; background-color: rgb(238, 75, 40);">@</span><input type="password" id="passwordsignup" name="passwordsignup" class="form-control" placeholder="Password"></div>
+            <div class="form-group has-feedback" style="margin-top: 10px;">
+               <div class="input-group input-group-lg">
+                  <span class="input-group-addon" style="color: white; background-color: rgb(238, 75, 40);">@</span><input type="password" class="form-control" id="repeatpasswordsignup" placeholder="Repeat Password">
+               </div>
+            </div>
+            <div class="checkbox">
+               <label>
+                  <input type="checkbox" id="checkboxAgree" value="on">
+                  <span style="position: absolute; top: 3px;">
+                     I have read and agree with ByMeal's <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+                  </span>
+               </label>
+            </div>
+            <button type="button" class="btn btn-block btn-primary btn-lg">Create account!</button>
+         </form> -->
+
+
+        <!-- Sign up with email -->
+        <div class="row">
+         <div class="col-sm-6 col-sm-offset-3 text-center">
+           <button id="googleSignup" type="button" class="btn btn-lg btn-block" style="font-weight:normal; color:black; background-color: #C1C1C1;  text-transform: none">
+              <span style="display: inline-block; vertical-align: middle; width: 45px; height: 45px; margin-bottom: -15px; margin-top: -15px; background: url(./img/email-logo.png) 0px 50% no-repeat transparent; background-size: contain"></span>Sign up with E-mail
+           </button>
+           </div>
+         </div>
+
+         <div class="row" style="margin-top:20px">
+          <div class="col-sm-8 col-sm-offset-2 text-center">
+          By creating an account, you confirm that you accept our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.
+          </div>
+         </div>
+
+
+
+         
+      </div>
+   </div>
+</div>
+
+
+
+
+      <div id="layout"></div>
+      <!-- Plugin JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+      <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+      <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Theme JavaScript -->
+    <script src="js/creative.min.js"></script>
+      <!-- React javascript -->
+      <script type="text/javascript" src="client.min.js"></script>
+
+  </body>
+
+  </html>

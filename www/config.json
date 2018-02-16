@@ -1,0 +1,9 @@
+{
+	"restRoot": "http://bymeal.com:8000",
+	"rest_client_id": "CaDM7eHoNlAPHguxm5UAloz9KXYVLero6llYM3Na",
+	"rest_client_secret": "jQJt5Fk7ShyBVEXuF3FrszTuYGyQKiamd731AwEBmaFYAjnOBRvUkQXXEq7gY18VbjQ1SGzMbVlGy7q2d8twtiQhwgrzSbnzMHYAztdcTZk4ySRatLb965y7nG17MJ3a",
+	"sendActivationEmails": true,
+	"s3_address": "https://bymeal.s3.amazonaws.com/",
+	"stripe_platform_client_id": "ca_ApXaBtI152uKSO9HuMdPX6MXzbRGh1aO",
+	"stripe_publishable_key": "pk_test_d9gE8ovLGEuu24f8wprcKrIo"
+}

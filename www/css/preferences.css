@@ -1,0 +1,50 @@
+.imgBox{
+    border-radius: 2%;
+
+
+}
+
+.privateInfo{
+    border-radius: 10px;
+    background-color: rgb(238, 238, 238);
+    padding-bottom: 20px;
+}
+
+.privateInfo p{
+
+    font-style: italic;
+}
+
+.publicInfoBtn{
+    background-color: rgb(255,128,0);
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+.imgBox p{
+    font-size: 17px;
+    margin-top: 29%;
+    font-style: italic;
+}
+
+.datePicker{
+    display: inline-flex;
+}
+.datePicker select{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.datePicker img{
+    width: 30px;
+    height: 30px;
+}
+
+
+.privateInfo .sub{
+    margin-left: 45%;
+}
+h2{
+    font-family:"Nimbus Sans L";
+    margin-left:10px;
+}

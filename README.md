@@ -1,1 +1,1 @@
-bymeal-frontend
+Archive of the ByMeal app
